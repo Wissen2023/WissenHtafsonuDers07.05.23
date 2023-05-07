@@ -198,6 +198,195 @@ namespace WissenHtafsonuDers.wissen_ders
             //var t = (1, 2, 3);
             //Console.WriteLine(t.Item1);
 
+            //5 elemanlı bir dizi tanımlayalım. Bu dizideki en büyük elemanı bulalım.
+            //int[] numbers = new int[5];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.Write((i + 1) + ". sayıyı giriniz: ");
+            //    numbers[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //int enBuyuk;
+            //enBuyuk = numbers[0];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (enBuyuk > numbers[i])
+            //    {
+            //        enBuyuk = numbers[i];
+            //    }
+            //}
+            //Console.WriteLine("En küçük sayı: " + enBuyuk);
+
+            //int[] numbers = new int[]{ 1, 2, 3, 4, 5 };
+
+
+            //foreach (int i in numbers)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //int[] numbers = new int[] { 4, 8, 6, 2 };
+            //Array.Sort(numbers);
+            //Array.Reverse(numbers);
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //string[] names = { "Ali", "Doğukan", "Ahmet" };
+            //Array.Sort(names);
+            //foreach (var item in names)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //List<int> listem = new List<int>();
+            //listem.Add(1);
+            //listem.Add(2);
+            //listem.Add(3);
+            //listem.Add(4);
+            //foreach (var item in listem)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //List<string> list = new List<string>();
+            //list.Add("Ali");
+            //list.Add("Doğukan");
+            //list.Add("Ahmet");
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Ödev Soru 3
+            //Console.Write("Fiyat Giriniz: ");
+            //double fiyat = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Adet bilgisi giriniz: ");
+            //double adet = Convert.ToDouble(Console.ReadLine());
+
+            //double kdvFiyat = (fiyat * 1.18);
+            //double otvFiyat = (kdvFiyat * 1.2);
+            //double adetliFiyat = (otvFiyat * adet);
+            //double devleteGidenFiyat = (adetliFiyat - (adet * fiyat));
+
+            //Console.WriteLine("Cebimizden Çıkan Vergi Tutarı: " + devleteGidenFiyat);
+
+            //Console.Write("Maaşınızı Giriniz: ");
+            //double maas = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Medeni Halinizi Giriniz: ");
+            //bool medeniHal = Convert.ToBoolean(Console.ReadLine());
+
+            //Console.Write("Çocuk Sayısı Giriniz: ");
+            //double cocukSayisi = Convert.ToDouble(Console.ReadLine());
+
+            //if (cocukSayisi == 1 && medeniHal == true)
+            //{
+            //    maas = maas * 1.05;
+            //    Console.WriteLine("Yeni maaş: " + maas);
+            //}
+            //else if (cocukSayisi == 2 && medeniHal == true)
+            //{
+            //    maas = maas * 1.10;
+            //    Console.WriteLine("Yeni maaş: " + maas);
+            //}
+            //else if (cocukSayisi >= 3 && medeniHal == true)
+            //{
+            //    maas = maas * 1.3;
+            //    Console.WriteLine("Yeni Maaş: " + maas);
+            //}
+            //else if(medeniHal == false)
+            //{
+            //    maas = maas * 0.9;
+            //    Console.WriteLine("Yeni Maaş: " + maas);
+            //}
+
+            //Sabri'nin 4. sorusunun cevabı
+            //Console.Write("Medeni Durumunuzu Giriniz (Evli/Bekar): ");
+            //string medeniDurum = Convert.ToString(Console.ReadLine());
+            //Console.Write("Maasinizi Giriniz (TL): ");
+            //double maas = Convert.ToDouble(Console.ReadLine());
+
+            //if (medeniDurum == "Evli")
+            //{
+
+            //    Console.Write("Cocuk Sayinizi Giriniz (Yoksa 0 Yaziniz): ");
+            //    int cocukSayisi = Convert.ToInt32(Console.ReadLine());
+
+            //    if (cocukSayisi == 0)
+            //    {
+            //        Console.WriteLine("Maasiniz: " + maas);
+            //    }
+            //    else if (cocukSayisi == 1)
+            //    {
+            //        maas = (maas * 0.05) + maas;
+            //        Console.WriteLine("Maasiniz: " + maas);
+            //    }
+            //    else if (cocukSayisi == 2)
+            //    {
+            //        maas = (maas * 0.1) + maas;
+            //        Console.WriteLine("Maasiniz: " + maas);
+            //    }
+            //    else if (cocukSayisi >= 3)
+            //    {
+            //        maas = (maas * 0.3) + maas;
+            //        Console.WriteLine("Maasiniz: " + maas);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Yanlis Veri Girdiniz!");
+            //    }
+
+            //}
+            //else if (medeniDurum == "Bekar")
+            //{
+            //    Console.WriteLine("Maasiniz: " + maas);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yanlis Veri Girdiniz!");
+            //}
+
+            //Console.Write("Maaşınızı Giriniz: ");
+            //double maas = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Medeni Halinizi Giriniz: ");
+            //bool medeniHal = Convert.ToBoolean(Console.ReadLine());
+
+            //Console.Write("Çocuk Sayısı Giriniz: ");
+            //double cocukSayisi = Convert.ToDouble(Console.ReadLine());
+            //while (medeniHal == true)
+            //{
+            //    if (cocukSayisi == 1)
+            //    {
+            //        maas = maas * 1.05;
+            //        Console.WriteLine("Yeni maaş: " + maas);
+            //    }
+            //    else if (cocukSayisi == 2)
+            //    {
+            //        maas = maas * 1.10;
+            //        Console.WriteLine("Yeni maaş: " + maas);
+            //    }
+            //    else if (cocukSayisi >= 3)
+            //    {
+            //        maas = maas * 1.3;
+            //        Console.WriteLine("Yeni Maaş: " + maas);
+            //    }
+            //    break;
+            //}
+            //if (medeniHal == false)
+            //{
+            //    maas = maas * 0.9;
+            //    Console.WriteLine("Yeni Maaş: " + maas);
+            //}
+
+            //Console.Write("Lütfen mesafe giriniz: ");
+            //double mesafe = Convert.ToDouble(Console.ReadLine());
+
+            //double sure = ((mesafe / 60) * 60);
+            //Console.WriteLine("Gidilecek süre: " + sure);
+
 
 
             Console.ReadLine();
